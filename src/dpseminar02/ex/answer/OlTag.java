@@ -13,11 +13,11 @@ public class OlTag extends Tag {
 
     @Override
     public void open() {
-        System.out.println("<ul>");
+        System.out.println("<ol>");
     }
 
     @Override
     public void close() {
-        System.out.println("</ul>");
+        System.out.println("</ol>");
     }
 }
