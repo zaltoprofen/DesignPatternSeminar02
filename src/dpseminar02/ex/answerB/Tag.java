@@ -1,4 +1,4 @@
-package dpseminar02.ex.answer;
+package dpseminar02.ex.answerB;
 
 import java.util.List;
 

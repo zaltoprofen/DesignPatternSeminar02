@@ -1,8 +1,7 @@
-package dpseminar02.ex.answer;
+package dpseminar02.ex.answerB;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * Created by kagaminaoto on 2016/10/18.
