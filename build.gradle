@@ -1,0 +1,26 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+jar {
+	baseName = 'DesignPatternSeminar02'
+	version = '0.0.1-SNAPSHOT'
+}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+mainClassName = 'dpseminar02.ex.problem.Main'
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+	compile 'com.google.guava:guava:19.0'
+}
